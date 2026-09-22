@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">nueva activiti class 1</string>
+    <string name="hint_escribe_mensaje">Escribe un mensaje...</string>
+    <string name="btn_enviar">Enviar texto</string>
+    <string name="tv_respuesta_default">El mensaje aparecerá aquí</string>
+    <string name="error_campo_vacio">¡Por favor, escribe un mensaje primero!</string>
+    <string name="no_mensaje_recibido">No se recibió ningún texto</string>
+</resources>
