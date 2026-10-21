@@ -35,15 +35,3 @@ Originalmente, el proyecto contenía la lógica básica para comunicar dos panta
 ## 🚀 Verificación y Control de Calidad
 * **Compilación:** Verificada de forma local mediante Gradle mediante la tarea `:app:assembleDebug`, arrojando un resultado exitoso libre de advertencias críticas de sintaxis.
 * **Pruebas:** Se ejecutó con éxito la suite de pruebas unitarias (`:app:testDebugUnitTest`), validando la integridad estructural del proyecto.
-
-## UI Adaptativa Multiplataforma (Flutter)
-
-La actividad Flutter está en `ui_adaptativa_flutter/`, separada de la aplicación Android nativa. La pantalla de ajustes selecciona Cupertino en iOS mediante `Platform.isIOS` y Material Design en las demás plataformas. Ambos switches mantienen su estado al interactuar.
-
-Con Flutter instalado, ejecuta las pruebas desde la raíz del repositorio:
-
-```powershell
-cd ui_adaptativa_flutter
-flutter pub get
-flutter test
-```
